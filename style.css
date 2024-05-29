@@ -1,0 +1,200 @@
+body {
+    background-color: black;
+    background-image: url(a.gif);
+
+}
+
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family:cursive ;
+    background-color: rgb(15, 54, 128);
+    display: flex;
+    justify-content: center;
+ 
+}
+ol{
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+}
+.foto{
+    display: flex;
+    border-radius: 40px;
+    justify-content: center
+}
+*{
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15, 54, 128);
+    align-items: center;
+
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+ul li{
+    padding: 20px 15px;
+    font-family: cursive;
+}
+
+.nav h1{
+    padding: auto;
+}
+
+ul li:hover{
+    background-color: aliceblue;
+    color: black;
+    transition: all 1s;
+}
+.header-nav-h1:hover{
+    background-color: rgb(15, 54, 128);
+    transition: all 1s;
+    color: black;
+}
+.aprendiendo-1{
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
+.programador{
+    color: white;
+    font-size: 35px;
+    font-family: cursive;
+    background-color: rgb(15, 54, 128);
+    display: flex;
+    justify-content: center;
+}
+.progreso-1{
+    color: white;
+    font-size: 35px;
+    font-family: cursive;
+    background-color: rgb(15, 54, 128);
+    display: flex;
+    justify-content: center;
+}
+.estoy-1{
+    color: white;
+    font-size: 35px;
+    font-family: cursive;
+    background-color: rgb(15, 54, 128);
+    display: flex;
+    justify-content: center;
+}
+.aprendiendo-2{
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
+.aprendiendo-3{
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
+.que-hago{
+    color: white;
+    font-size: 35px;
+    font-family: cursive;
+    background-color: rgb(15, 54, 128);
+    display: flex;
+    justify-content: center;
+}
+.contacto{
+    color: white;
+    font-size: 35px;
+    font-family: cursive;
+    background-color: rgb(15, 54, 128);
+    display: flex;
+    justify-content: center;
+}
+
+.content-aprendido{
+    display: flex;
+    flex-direction: column;
+    margin: 1% 2%;
+    gap: 20px;
+}
+
+.progress{
+    width: 600px;
+    height: 30px;
+    display: flex;
+    justify-content: left;
+    padding-left: 5px;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+
+.progress-bar-1{
+    width: 0%;
+    overflow: hidden;
+    position: absolute;
+    height: 17px;
+    background-color: rgb(15, 54, 128);
+    border-radius: 50px;
+
+    animation: bar-1 3s ease-in 2s 1 normal forwards;
+}
+
+@keyframes bar-1 {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 295px;
+    }
+}
+
+.progress-bar-2{
+    width: 0%;
+    overflow: hidden;
+    position: absolute;
+    height: 17px;
+    background-color: rgb(15, 54, 128);
+    border-radius: 50px;
+
+    animation: bar-2 3s ease-in 3s 1 normal forwards;
+}
+
+@keyframes bar-2 {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 200px;
+    }
+}
+
+.progress-bar-3{
+    width: 0%;
+    overflow: hidden;
+    position: absolute;
+    height: 17px;
+    background-color: rgb(15, 54, 128);
+    border-radius: 50px;
+
+    animation: bar-3 3s ease-in 4s 1 normal forwards;
+}
+
+@keyframes bar-3 {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 60px;
+    }
+}
